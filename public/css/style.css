@@ -43,6 +43,7 @@ button:hover{
 }
 
 .form-container{
+    margin-top: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     color: white;
     flex-direction: column;
@@ -117,3 +118,15 @@ th, td{
     border-right: 1px solid black;
 }
 
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #ce8307;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #15755a;
+    border-radius: 20px;
+}

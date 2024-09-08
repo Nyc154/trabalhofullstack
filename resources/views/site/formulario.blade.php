@@ -27,10 +27,6 @@
                 </div>
             @endif
 
-            @if(session('success'))
-                <p>{{ session('success') }}</p>
-            @endif
-
             <form class="form-container" action="{{ route('pessoa.store') }}" method="POST">
                 @csrf
                 <label for="nome">Nome:</label>

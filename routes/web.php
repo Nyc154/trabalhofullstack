@@ -9,3 +9,5 @@ Route::get('/pessoas', [PessoaController::class, 'index'])->name('pessoa.index')
 Route::get('/', function () {
     return view('site/inicio');
 })->name('inicio');
+
+Route::redirect('/inicio', '/');
